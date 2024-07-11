@@ -677,6 +677,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -782,6 +918,168 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1458,6 +1756,594 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BC847"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC847"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Small Signal Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC847_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC847_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BC856"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC856"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC856_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC856_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BCP53"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BCP53"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCP53_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCP53_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1562,10 +2448,34 @@
 		(uuid "00d590bc-be65-452f-af0f-f66b0409e1b0")
 	)
 	(junction
+		(at 163.83 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03e5c618-9d91-4476-99d3-71f9f025b4d3")
+	)
+	(junction
+		(at 148.59 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05fbedbe-17a1-42a3-9bfb-d886dcc8c3e7")
+	)
+	(junction
 		(at 261.62 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad673a7-a774-4652-b31b-e2c5d3e87c61")
+	)
+	(junction
+		(at 261.62 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d0de612-651d-4be2-9bf2-0e054487867d")
+	)
+	(junction
+		(at 261.62 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1258afb9-ba6e-4f64-8f67-985a8587c6c6")
 	)
 	(junction
 		(at 278.13 43.18)
@@ -1604,16 +2514,46 @@
 		(uuid "33502ed6-5558-48c7-b070-ff053b6c81a2")
 	)
 	(junction
+		(at 261.62 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38191dc7-b26b-46ad-a8aa-e1ad1fd22082")
+	)
+	(junction
 		(at 261.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f6c27c4-8fa2-4d53-8057-d329d4ad5c59")
 	)
 	(junction
+		(at 261.62 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "434d4ff0-eba8-4ea1-a415-ae169c997622")
+	)
+	(junction
 		(at 261.62 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44551ed1-c70b-47aa-b20b-9ed71d05e39c")
+	)
+	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46605f33-ea29-4451-b9f3-13eb11d308a2")
+	)
+	(junction
+		(at 129.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a733c5-a992-4231-9187-6954f82179dd")
+	)
+	(junction
+		(at 154.94 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52c4db21-32be-4317-a3b7-ded26b8fd07f")
 	)
 	(junction
 		(at 278.13 104.14)
@@ -1640,6 +2580,30 @@
 		(uuid "6a1fcda2-db5f-459d-b8dd-6f8d10c4dacb")
 	)
 	(junction
+		(at 144.78 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6baf807f-5092-429e-a881-e33528511ce3")
+	)
+	(junction
+		(at 163.83 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6da896df-6800-4734-9b4d-1c4a75c8a664")
+	)
+	(junction
+		(at 158.75 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74ed5794-9b2c-46dd-bc4b-b80af997d1cd")
+	)
+	(junction
+		(at 154.94 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "750bb172-a0f4-4b96-825d-a8657a25e6f1")
+	)
+	(junction
 		(at 261.62 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1664,6 +2628,18 @@
 		(uuid "963d0c67-e64e-4fd0-a5b4-9ae92a4da75b")
 	)
 	(junction
+		(at 158.75 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970e25f7-b29e-470c-9d2c-63f742df0356")
+	)
+	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac01a753-a645-436d-b73d-07becc8d22cc")
+	)
+	(junction
 		(at 261.62 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1682,10 +2658,22 @@
 		(uuid "c41ce47b-979b-4cc7-9f98-487641814982")
 	)
 	(junction
+		(at 154.94 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5461f13-1979-461e-9ad2-28ab724d06f5")
+	)
+	(junction
 		(at 261.62 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc2353bf-1bd1-4193-8fd9-103c9376fb54")
+	)
+	(junction
+		(at 261.62 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e159e1c4-463a-4f63-924a-43bb95461f04")
 	)
 	(junction
 		(at 278.13 134.62)
@@ -1775,6 +2763,15 @@
 		(uuid "496e2667-c609-4312-8123-60b8d68d1b07")
 	)
 	(bus_entry
+		(at 238.76 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3823fd-df4a-472a-bf0e-d901dc91caae")
+	)
+	(bus_entry
 		(at 238.76 24.13)
 		(size 2.54 2.54)
 		(stroke
@@ -1818,6 +2815,15 @@
 			(type default)
 		)
 		(uuid "8819e4e9-d7dd-4ecf-b6e2-14a7f1ba7ea7")
+	)
+	(bus_entry
+		(at 173.99 22.86)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cd32a3-c8f1-42ea-a8f1-64187ed4e868")
 	)
 	(bus_entry
 		(at 73.66 91.44)
@@ -1874,6 +2880,24 @@
 		(uuid "b1b2a9e9-93dd-49ba-bd4f-89bebc25c96c")
 	)
 	(bus_entry
+		(at 223.52 22.86)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b946107a-c307-4aa9-8afd-5155db1440f0")
+	)
+	(bus_entry
+		(at 238.76 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e5aece-ef8c-4448-8b09-a490afa9b7c7")
+	)
+	(bus_entry
 		(at 73.66 78.74)
 		(size 2.54 2.54)
 		(stroke
@@ -1890,6 +2914,34 @@
 			(type default)
 		)
 		(uuid "ec327584-5ade-4d15-a0f9-31a0f759582d")
+	)
+	(bus_entry
+		(at 238.76 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed857a92-bffa-4328-9d14-5e503707b5e4")
+	)
+	(bus_entry
+		(at 238.76 49.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94239fd-066c-44f8-8c68-b42f5676fb35")
+	)
+	(wire
+		(pts
+			(xy 261.62 20.32) (xy 261.62 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0026fd08-db23-4dd9-8748-055eba14ef9b")
 	)
 	(wire
 		(pts
@@ -1933,6 +2985,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 82.55) (xy 247.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d0798b-67c7-4f1c-8987-c047ff320bdb")
+	)
+	(wire
+		(pts
 			(xy 264.16 130.81) (xy 261.62 130.81)
 		)
 		(stroke
@@ -1953,6 +3015,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06752c54-478c-4e08-a51c-a50e28bdd871")
+	)
+	(wire
+		(pts
 			(xy 261.62 161.29) (xy 261.62 162.56)
 		)
 		(stroke
@@ -1960,6 +3032,26 @@
 			(type default)
 		)
 		(uuid "06b0eeed-9f2a-432a-ae03-df764d8153c6")
+	)
+	(wire
+		(pts
+			(xy 154.94 58.42) (xy 154.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bb4e1c-251b-4056-a0e4-d62e1a573fdd")
+	)
+	(wire
+		(pts
+			(xy 163.83 63.5) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09866f30-3565-414d-86d4-b31697a3f245")
 	)
 	(wire
 		(pts
@@ -1980,6 +3072,26 @@
 			(type default)
 		)
 		(uuid "0b33166b-3869-4671-b9fd-e1d9284e98e5")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be1bce7-8202-49e5-98e9-eb46177096df")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0dbd52-1038-435c-9a06-6f8a2a757082")
 	)
 	(wire
 		(pts
@@ -2043,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 20.32) (xy 247.65 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1635718c-03ec-4a1b-a0d0-76edf725c0f3")
+	)
+	(wire
+		(pts
 			(xy 264.16 156.21) (xy 261.62 156.21)
 		)
 		(stroke
@@ -2080,6 +3202,16 @@
 			(type default)
 		)
 		(uuid "18c82c54-f73a-44ba-a45d-e6bc2a4d07e7")
+	)
+	(wire
+		(pts
+			(xy 158.75 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f0e473-4456-4d67-b09a-9f177ca669ef")
 	)
 	(bus
 		(pts
@@ -2151,15 +3283,35 @@
 		)
 		(uuid "221b6a3d-7e3e-486a-bf33-31f645a825e9")
 	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 96.52 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b2fdc8-6408-4722-87d6-d7de231bbaf8")
+	)
 	(bus
 		(pts
-			(xy 238.76 120.65) (xy 238.76 146.05)
+			(xy 238.76 120.65) (xy 238.76 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22b57149-d140-4173-a69c-899223ff9553")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d8c7c3-2a4b-4d4a-b6e4-22bffd0acd18")
 	)
 	(wire
 		(pts
@@ -2190,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "27f158b2-2b47-4879-a1cc-70f88e5f18fa")
+	)
+	(wire
+		(pts
+			(xy 163.83 52.07) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2abad35c-48c5-4614-a862-49b8d72f4296")
 	)
 	(wire
 		(pts
@@ -2243,6 +3405,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 113.03) (xy 247.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d75761-417d-48b2-91d4-39b29cb3d444")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f49b9d-4ebd-4b5f-8a1c-8cd9f2b75a26")
+	)
+	(wire
+		(pts
 			(xy 255.27 148.59) (xy 261.62 148.59)
 		)
 		(stroke
@@ -2250,6 +3432,16 @@
 			(type default)
 		)
 		(uuid "33c0080a-2eee-4bb2-9fe1-23294f25cf46")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a4736d-9c3b-4bc7-9db8-4af48fa0f72b")
 	)
 	(wire
 		(pts
@@ -2270,6 +3462,16 @@
 			(type default)
 		)
 		(uuid "38f18569-1d63-4eca-ae34-e4d7b9e45cfa")
+	)
+	(wire
+		(pts
+			(xy 154.94 102.87) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a07742f-5838-4513-a57d-2ca791a875a0")
 	)
 	(wire
 		(pts
@@ -2353,6 +3555,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 90.17) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a9d398-e261-4a53-9950-2ef9d5cf8b7c")
+	)
+	(wire
+		(pts
 			(xy 261.62 95.25) (xy 261.62 97.79)
 		)
 		(stroke
@@ -2380,6 +3592,16 @@
 			(type default)
 		)
 		(uuid "469e2037-9b62-4dfc-a573-eea44c67430d")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4953afae-2df8-426c-98bf-25726bf79350")
 	)
 	(wire
 		(pts
@@ -2463,6 +3685,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 50.8) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cce036-ddbd-42ec-bc96-eb5f25e66c13")
+	)
+	(wire
+		(pts
 			(xy 278.13 134.62) (xy 278.13 104.14)
 		)
 		(stroke
@@ -2503,6 +3735,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577eb30e-1e4d-4149-b221-87a6eb2c801d")
+	)
+	(wire
+		(pts
 			(xy 261.62 67.31) (xy 264.16 67.31)
 		)
 		(stroke
@@ -2533,6 +3775,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 41.91) (xy 154.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e794969-e6ac-473a-a1f5-4db89e49db39")
+	)
+	(bus
+		(pts
+			(xy 238.76 80.01) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f47bb96-ffac-4aa6-91b9-7716ef37d032")
+	)
+	(wire
+		(pts
 			(xy 271.78 134.62) (xy 278.13 134.62)
 		)
 		(stroke
@@ -2543,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 86.36) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d4fc90-dde2-4f08-99db-7e4bd1548118")
+	)
+	(wire
+		(pts
 			(xy 278.13 12.7) (xy 271.78 12.7)
 		)
 		(stroke
@@ -2550,6 +3822,36 @@
 			(type default)
 		)
 		(uuid "62de5316-9184-44fc-8885-e7300efadc82")
+	)
+	(wire
+		(pts
+			(xy 154.94 57.15) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6453a13b-1e66-4935-8522-58fcfe41845c")
+	)
+	(bus
+		(pts
+			(xy 238.76 49.53) (xy 238.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64890aa1-ec44-4ff0-9d6a-d2fd8d54c569")
+	)
+	(wire
+		(pts
+			(xy 163.83 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a9dd38-276c-42e9-8679-c2218c14fefb")
 	)
 	(wire
 		(pts
@@ -2643,6 +3945,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 20.32) (xy 261.62 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7582c86d-9655-4953-8f40-7ab92c5d7875")
+	)
+	(wire
+		(pts
 			(xy 261.62 156.21) (xy 261.62 158.75)
 		)
 		(stroke
@@ -2693,7 +4005,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 21.59) (xy 261.62 19.05)
+			(xy 261.62 21.59) (xy 261.62 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2763,13 +4075,33 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 29.21) (xy 238.76 54.61)
+			(xy 238.76 29.21) (xy 238.76 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8115cf25-8fa0-4b50-8e33-a0b9ded0b9e0")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814e5ab0-4a45-4802-9bd5-ee6a2ffb7857")
+	)
+	(wire
+		(pts
+			(xy 156.21 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8171ddd9-ce05-49e8-b22f-eeaba5a3e643")
 	)
 	(wire
 		(pts
@@ -2803,6 +4135,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 52.07) (xy 247.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8645717c-8451-449d-b1ab-38aedb11459d")
+	)
+	(wire
+		(pts
 			(xy 264.16 62.23) (xy 261.62 62.23)
 		)
 		(stroke
@@ -2833,6 +4175,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d494bb3-f16e-4b58-935c-6bd493f3d6b9")
+	)
+	(bus
+		(pts
+			(xy 238.76 110.49) (xy 238.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e10958e-e243-4f76-a369-2249e1fb71b0")
+	)
+	(wire
+		(pts
 			(xy 261.62 140.97) (xy 264.16 140.97)
 		)
 		(stroke
@@ -2850,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "91421435-69d3-4005-b898-567208b4e2f8")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b0d85b-ca9b-44d3-a25c-a6b4830445aa")
 	)
 	(wire
 		(pts
@@ -2893,13 +4265,33 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 90.17) (xy 238.76 115.57)
+			(xy 238.76 90.17) (xy 238.76 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99aacd4e-0486-42d9-8664-00d55b4027b4")
+	)
+	(wire
+		(pts
+			(xy 121.92 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c96dc00-6ee7-4013-8a37-2067eddfbd80")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 91.44 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec0cbad-71af-4c67-ae77-4c23325187ca")
 	)
 	(wire
 		(pts
@@ -2933,7 +4325,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 22.86) (xy 238.76 22.86)
+			(xy 73.66 22.86) (xy 173.99 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2970,6 +4362,16 @@
 			(type default)
 		)
 		(uuid "a5b88a07-d694-4856-94ad-cf6b20ecb59c")
+	)
+	(wire
+		(pts
+			(xy 143.51 41.91) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b2ad88-5f82-4402-9e7f-282153ba4111")
 	)
 	(bus
 		(pts
@@ -3013,6 +4415,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 48.26) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab97dc56-e0d6-4554-8dcb-9aaa192b2493")
+	)
+	(wire
+		(pts
 			(xy 121.92 46.99) (xy 123.19 46.99)
 		)
 		(stroke
@@ -3043,6 +4455,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 41.91) (xy 163.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4763bb-65f8-4dce-95e2-7f46aad1a93f")
+	)
+	(wire
+		(pts
 			(xy 261.62 85.09) (xy 264.16 85.09)
 		)
 		(stroke
@@ -3050,6 +4472,26 @@
 			(type default)
 		)
 		(uuid "af5915ac-37cb-4ec0-b73d-f9daa3a1f099")
+	)
+	(bus
+		(pts
+			(xy 173.99 22.86) (xy 223.52 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af75820e-3ce9-4d13-9926-a1a2be3920dc")
+	)
+	(wire
+		(pts
+			(xy 255.27 143.51) (xy 261.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff6e3b4-29c8-45af-9f2f-10f14bea0874")
 	)
 	(bus
 		(pts
@@ -3083,6 +4525,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 99.06) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b357af86-fcd1-4eae-9a7c-b9cbc316ab56")
+	)
+	(wire
+		(pts
 			(xy 76.2 101.6) (xy 96.52 101.6)
 		)
 		(stroke
@@ -3093,6 +4545,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 41.91) (xy 154.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5313754-2fc2-49b6-abd5-5223fc94161e")
+	)
+	(wire
+		(pts
 			(xy 261.62 143.51) (xy 261.62 140.97)
 		)
 		(stroke
@@ -3100,6 +4562,16 @@
 			(type default)
 		)
 		(uuid "b636ebc5-d325-4c8f-8366-8e786f22ebb9")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b642a705-7b3b-4cff-85c5-eddb2addcb4d")
 	)
 	(wire
 		(pts
@@ -3123,13 +4595,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 49.53) (xy 146.05 46.99)
+			(xy 144.78 105.41) (xy 144.78 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b91307fa-4cdf-44f9-b14b-e6fc292ea4d7")
+	)
+	(wire
+		(pts
+			(xy 171.45 25.4) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c6686e-f320-4f82-93f8-d4bf24817b82")
 	)
 	(wire
 		(pts
@@ -3143,6 +4625,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 97.79) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa1b197-e05e-4b73-9a34-4992d7ba73f2")
+	)
+	(wire
+		(pts
 			(xy 264.16 125.73) (xy 261.62 125.73)
 		)
 		(stroke
@@ -3150,6 +4642,16 @@
 			(type default)
 		)
 		(uuid "c2100fbc-8be5-40e9-b2f9-df945bbff70a")
+	)
+	(wire
+		(pts
+			(xy 241.3 143.51) (xy 247.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29904ab-c591-4060-aa86-e831907dbae3")
 	)
 	(wire
 		(pts
@@ -3163,6 +4665,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 69.85) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c689cb45-ff83-4070-98ca-c7d459b66eaf")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8605a12-142b-4eab-984f-6ebe08078abb")
+	)
+	(wire
+		(pts
 			(xy 261.62 90.17) (xy 264.16 90.17)
 		)
 		(stroke
@@ -3173,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 46.99) (xy 146.05 46.99)
+			(xy 143.51 46.99) (xy 144.78 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3213,6 +4735,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 76.2) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57eff4d-9f1c-40ce-a40b-fb6f36b7df79")
+	)
+	(wire
+		(pts
+			(xy 255.27 82.55) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68f4cc9-4b08-4a24-9f8f-d1f84f12a824")
+	)
+	(wire
+		(pts
 			(xy 106.68 114.3) (xy 106.68 116.84)
 		)
 		(stroke
@@ -3233,6 +4775,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 41.91) (xy 148.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db877f89-8fde-4cfc-b86e-88159ba60676")
+	)
+	(wire
+		(pts
 			(xy 261.62 92.71) (xy 261.62 90.17)
 		)
 		(stroke
@@ -3240,6 +4792,56 @@
 			(type default)
 		)
 		(uuid "dbead0ce-b6d3-42cf-a452-27df8904aab0")
+	)
+	(wire
+		(pts
+			(xy 162.56 52.07) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb70d8c-e6c9-4ea1-9937-700ebe0286e5")
+	)
+	(bus
+		(pts
+			(xy 238.76 140.97) (xy 238.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de43aaed-3c4b-4ecd-a2e3-567a64ad1d8c")
+	)
+	(bus
+		(pts
+			(xy 223.52 22.86) (xy 238.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6411d4-8ffc-41cb-8a7c-eed5511cc08e")
+	)
+	(wire
+		(pts
+			(xy 163.83 50.8) (xy 163.83 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df99f03d-d2df-46bc-9aec-909aadf794b7")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18c4f70-d919-4b69-9efb-9c68f2090a92")
 	)
 	(wire
 		(pts
@@ -3261,15 +4863,45 @@
 		)
 		(uuid "eb400d85-3263-4942-90e4-883c7f38f067")
 	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0b4aba-edec-4519-82be-31ba0af1c3ac")
+	)
 	(bus
 		(pts
-			(xy 238.76 59.69) (xy 238.76 85.09)
+			(xy 238.76 59.69) (xy 238.76 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec0dc484-da10-4cbe-b3b9-411a9c27a0f0")
+	)
+	(wire
+		(pts
+			(xy 255.27 52.07) (xy 261.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0f5f8e-bd68-4eed-acd2-a90f3cb96ce1")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc72982-f984-4a0f-b7d5-1ded5ba7fba4")
 	)
 	(wire
 		(pts
@@ -3353,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 41.91) (xy 163.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44b62ae-7960-48a9-a7de-a5e7eb68d7cb")
+	)
+	(wire
+		(pts
 			(xy 241.3 57.15) (xy 247.65 57.15)
 		)
 		(stroke
@@ -3360,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "f47b2e56-6425-4b12-baa5-102355ca3765")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f3b0e4-67c9-4afa-87b3-1d621f1c371d")
 	)
 	(wire
 		(pts
@@ -3380,6 +5032,16 @@
 			(type default)
 		)
 		(uuid "f7d0d124-c361-47ae-88f0-0b3bee7132cc")
+	)
+	(wire
+		(pts
+			(xy 154.94 67.31) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f83fde-378d-4fa8-af75-87b9e4379e25")
 	)
 	(wire
 		(pts
@@ -3441,6 +5103,16 @@
 		)
 		(uuid "fd67b9da-3ba5-4cac-a1c8-9c5469c77ccc")
 	)
+	(wire
+		(pts
+			(xy 255.27 113.03) (xy 261.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdfb23c5-0fa0-45ac-9285-8c50a2b2f2d6")
+	)
 	(label "B1"
 		(at 80.01 99.06 0)
 		(fields_autoplaced yes)
@@ -3485,7 +5157,17 @@
 		)
 		(uuid "2c0d5fe3-551e-44b3-8635-24425e2a1b76")
 	)
-	(label "{A[0..4] B[0..4]}"
+	(label "PWR"
+		(at 242.57 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f32558-f96d-452a-bdca-5b318081e01c")
+	)
+	(label "{A[0..4] B[0..4] PWR}"
 		(at 187.96 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3495,6 +5177,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c1b783a-bf65-47f6-9c49-7487c7658778")
+	)
+	(label "PWR"
+		(at 171.45 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "401fe509-b86f-4878-9292-b009a37fc74a")
 	)
 	(label "A4"
 		(at 80.01 81.28 0)
@@ -3518,6 +5210,16 @@
 		)
 		(uuid "41b0e255-23b0-4b20-8da8-dd5c5c1c8efe")
 	)
+	(label "PWR"
+		(at 242.57 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a6f050d-d1f8-4510-9016-a03e40ed4c20")
+	)
 	(label "B2"
 		(at 242.57 92.71 0)
 		(fields_autoplaced yes)
@@ -3529,6 +5231,16 @@
 		)
 		(uuid "531244c1-16b1-4d06-a746-4c704a934bdf")
 	)
+	(label "PWR"
+		(at 242.57 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58d4c7e3-22bb-4426-8848-5fefe5453db2")
+	)
 	(label "B0"
 		(at 242.57 31.75 0)
 		(fields_autoplaced yes)
@@ -3539,6 +5251,26 @@
 			(justify left bottom)
 		)
 		(uuid "62e9eb03-9e7c-43e8-b947-aec060a95eec")
+	)
+	(label "PWR"
+		(at 242.57 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64e3fa80-dd64-4bc0-9aaa-fec7d6db2021")
+	)
+	(label "PWR"
+		(at 242.57 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3931d6-6bfb-42e9-ace2-963ff4e255cb")
 	)
 	(label "A1"
 		(at 80.01 96.52 0)
@@ -3805,6 +5537,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 134.62 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "187f1894-8296-43ba-aca1-3988ab0f7fe8")
+		(property "Reference" "D7"
+			(at 134.62 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 134.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 134.62 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e7239fb-0600-453d-9755-880bdd9ce7c4")
+		)
+		(pin "1"
+			(uuid "9d3203e7-b3e1-460d-8a85-48ac93e34c4c")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 251.46 148.59 90)
 		(unit 1)
@@ -4062,6 +5889,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 129.54 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3364992d-599c-4c6f-b969-0f6f86054b11")
+		(property "Reference" "R11"
+			(at 132.08 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.08 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 131.318 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 129.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "155d90a9-f459-480c-95be-8040a491d5ae")
+		)
+		(pin "2"
+			(uuid "eab3217c-71fc-4856-a1a8-c2b4ef001db5")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 278.13 137.16 0)
 		(unit 1)
@@ -4122,6 +6028,101 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 251.46 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c329853-d68d-43f0-8f58-4c1145c19cbc")
+		(property "Reference" "D3"
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 251.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 251.46 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1297639d-a364-4867-861d-1d10378826dc")
+		)
+		(pin "1"
+			(uuid "4516a51e-eeb8-4ed0-a82a-a650a96e3e31")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4205,6 +6206,244 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 251.46 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f224dbc-f324-402a-84c1-92ce83804b50")
+		(property "Reference" "D4"
+			(at 251.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 251.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 251.46 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 251.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06880130-1411-4af9-be21-94d2d04ca3e2")
+		)
+		(pin "1"
+			(uuid "25298842-db0a-42a6-8c41-c363410b5905")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ed838d-feac-4986-bf6b-f45986429dea")
+		(property "Reference" "#PWR010"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66ffb5cd-0faf-4e1d-ab3d-de8e720870d3")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65450398-7e14-48b2-a5d2-fcde5983f51d")
+		(property "Reference" "R18"
+			(at 144.78 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 144.78 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b6b880-fdf7-4a36-aebb-a6ed4d3e26d5")
+		)
+		(pin "2"
+			(uuid "874abca7-5674-45ee-8254-84fe7a198140")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 251.46 26.67 90)
 		(unit 1)
@@ -4282,6 +6521,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 134.62 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69bd1b52-d62a-4f10-9d36-ad4c232e2869")
+		(property "Reference" "D1"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 134.62 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5f3a2f7-04fc-4592-8b2e-417fb36acf33")
+		)
+		(pin "1"
+			(uuid "1c9a34bb-0868-49d5-8f3f-b5b707c8b4de")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 101.6 0)
 		(unit 1)
@@ -4349,7 +6683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 49.53 0)
+		(at 144.78 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4358,7 +6692,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f6f9766-9b20-403e-8c37-b1db2584978c")
 		(property "Reference" "#PWR09"
-			(at 146.05 55.88 0)
+			(at 144.78 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +6701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 54.61 0)
+			(at 144.78 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +6709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 49.53 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +6718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 49.53 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +6727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 49.53 0)
+			(at 144.78 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,6 +6836,101 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 251.46 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fc5c35-5bd9-40c3-9fc8-e039e1cda7c9")
+		(property "Reference" "D5"
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 251.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 251.46 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dadc7f21-fed1-4fe3-b311-8e33f2b2da15")
+		)
+		(pin "1"
+			(uuid "2dc0ffe1-4b09-41e0-8994-6b142163d09d")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4670,6 +7099,164 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 154.94 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8797ea85-9780-4e96-9045-3a2065e90253")
+		(property "Reference" "R12"
+			(at 157.48 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 157.48 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 156.718 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80144831-c466-41ec-99dd-cafd2e235081")
+		)
+		(pin "2"
+			(uuid "0d9656ad-680e-4867-a43f-7c2c60cf27ed")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 163.83 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a49bcccd-0e2f-474b-81c4-c659d0ce84f7")
+		(property "Reference" "C1"
+			(at 167.64 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 167.64 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.7952 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "X7R-G0805 100N"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e93693cb-7bc8-43e8-b260-acb5a48f56cb")
+		)
+		(pin "2"
+			(uuid "a1661091-39bd-42a5-945e-8313443ddf9c")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 251.46 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4740,6 +7327,180 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 251.46 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8b7e452-7c2e-4738-a500-3ee18c68ab33")
+		(property "Reference" "D6"
+			(at 251.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 251.46 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21de36bc-9a7f-47f3-abfb-90b62f295f76")
+		)
+		(pin "1"
+			(uuid "c05bc7d2-a934-4200-ad98-423de8d5aa38")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aad640eb-5f9e-4b95-bd52-beeb2321bdde")
+		(property "Reference" "R14"
+			(at 166.37 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2,2"
+			(at 166.37 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.608 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 2,2"
+			(at 163.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c72c4e3-a16c-4944-8f96-153f92e824b9")
+		)
+		(pin "2"
+			(uuid "99766b85-b0a4-47ff-84eb-169d84aa14fa")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4966,6 +7727,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BCP53")
+		(at 161.29 58.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f55802-d21e-44f0-9f6b-d65c084657e9")
+		(property "Reference" "Q1"
+			(at 166.37 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCP53"
+			(at 166.37 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 166.37 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BCP53T1-D.PDF"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Ic, 80V Vce, PNP Medium Power Transistor, SOT-223"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "BCP 53-16 SMD"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad572d14-73d1-4f3a-b507-4b0909e353fe")
+		)
+		(pin "1"
+			(uuid "bc213710-7177-4c8f-9785-3e6e5d5f2f66")
+		)
+		(pin "4"
+			(uuid "234eb064-b1a1-4bb1-ba87-b7a4cd408c6d")
+		)
+		(pin "3"
+			(uuid "1320fde4-aafb-48ef-91f1-3546d34eccc1")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847")
+		(at 152.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c6eda7-c780-47e0-9c03-a84bc4988b0c")
+		(property "Reference" "Q3"
+			(at 157.48 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847"
+			(at 157.48 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 157.48 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "BC 847C SMD"
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0554189-6efc-4d0e-988b-e59712ca7374")
+		)
+		(pin "1"
+			(uuid "89791a49-7750-44d3-8f89-429133663fcb")
+		)
+		(pin "3"
+			(uuid "a66efe22-fb7d-4929-a6cd-b7cc784764f7")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 118.11 0)
 		(unit 1)
@@ -5126,6 +8061,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 139.7 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65c1a64-4b21-4440-96dc-364dd844e611")
+		(property "Reference" "R17"
+			(at 142.24 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.24 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 141.478 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22380ad9-d318-4df2-8ac2-956742e5040e")
+		)
+		(pin "2"
+			(uuid "89a10ecb-ed6e-4002-8105-26d2e7907b86")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0766937-e351-461a-bc26-28cbce492d9e")
+		(property "Reference" "R16"
+			(at 161.29 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.528 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97bcd664-6075-45df-9bc7-6efa337489b3")
+		)
+		(pin "2"
+			(uuid "83348bdb-1bb7-490b-adaa-e9f840d70701")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DE9_Receptacle_MountingHoles")
 		(at 271.78 59.69 0)
 		(mirror x)
@@ -5214,6 +8307,186 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 251.46 20.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e40866c7-41f4-4815-9b91-296a5610ab65")
+		(property "Reference" "D2"
+			(at 251.46 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 251.46 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 251.46 15.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "1N 4148W DIO"
+			(at 251.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c09bab4-069f-4527-89e9-95cea5608f6a")
+		)
+		(pin "1"
+			(uuid "c81fb0dc-56de-42fb-80df-bb4901d5c18e")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC856")
+		(at 157.48 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51ccbb4-7618-4876-b68d-42cc79c20d65")
+		(property "Reference" "Q2"
+			(at 152.4 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC856"
+			(at 152.4 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 152.4 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC860-D.pdf"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 65V Vce, PNP Transistor, SOT-23"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "BC 856B SMD"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a9c6f59c-2295-4786-a74a-56829b6dc822")
+		)
+		(pin "1"
+			(uuid "2096cdf1-421a-43c7-aed2-9b440ed332ff")
+		)
+		(pin "2"
+			(uuid "559e1f28-8f4e-4f97-a730-b4cfa1b2f086")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5380,6 +8653,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9384118-43a2-43a7-98a3-51f744fe9928")
+		(property "Reference" "R15"
+			(at 161.29 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.528 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be4371dd-2c8d-4163-9dcb-bf4417864323")
+		)
+		(pin "2"
+			(uuid "80349a4f-c6da-42e7-bf3c-36d6ca1ee326")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea20f43c-20aa-4b87-9a89-2d33a5423a5c")
+		(property "Reference" "R13"
+			(at 151.13 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 151.13 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 150.368 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 148.59 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f35b24d-c2bc-44e0-a1db-ae6830a2996d")
+		)
+		(pin "2"
+			(uuid "1cb2d77a-811d-408b-9f46-337085e890c8")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 132.08 0)
 		(unit 1)
@@ -5490,6 +8921,15 @@
 			)
 		)
 		(property "Description" "2W DC/DC converter unregulated, 4.5-5.5V input, 9V fixed output voltage, 222mA output, 1.5kVDC isolation, SIP-7"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "AM2DS-0509SJZ"
 			(at 133.35 44.45 0)
 			(effects
 				(font
