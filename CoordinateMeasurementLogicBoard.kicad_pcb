@@ -12950,7 +12950,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 0 -1.4125 360)
 			(layer "B.Fab")
 			(uuid "0e17d2d2-c813-40ef-b1e4-4a3e7e6bb1c1")
@@ -13004,7 +13004,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Reichelt.de" "SMD-0805 10,0K"
+		(property "Reichelt.de" "SMD-0805 1,0K"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")

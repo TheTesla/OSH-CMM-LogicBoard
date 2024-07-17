@@ -10024,7 +10024,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 172.72 96.5199 0)
 			(effects
 				(font
@@ -10060,7 +10060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt.de" "SMD-0805 10,0K"
+		(property "Reichelt.de" "SMD-0805 1,0K"
 			(at 170.18 95.25 0)
 			(effects
 				(font
