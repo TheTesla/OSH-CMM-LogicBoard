@@ -971,6 +971,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2502,6 +2671,246 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+9V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2636,6 +3045,12 @@
 		(uuid "0d0de612-651d-4be2-9bf2-0e054487867d")
 	)
 	(junction
+		(at 177.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e2caf5b-efe6-4cb1-bbbc-2aef8a892dbe")
+	)
+	(junction
 		(at 261.62 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2658,6 +3073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a08c216-26bd-4c6b-abba-1abec3d88fb6")
+	)
+	(junction
+		(at 154.94 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f369e86-63a0-4ac7-a090-e63eb2afaa59")
 	)
 	(junction
 		(at 261.62 148.59)
@@ -2808,6 +3229,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c41ce47b-979b-4cc7-9f98-487641814982")
+	)
+	(junction
+		(at 114.3 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87c6f9e-0539-4400-8d8a-f62d71495d4f")
 	)
 	(junction
 		(at 118.11 34.29)
@@ -3717,6 +4144,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 81.28) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d06c16d-d582-43d1-aeeb-73ed202d777c")
+	)
+	(wire
+		(pts
 			(xy 241.3 118.11) (xy 247.65 118.11)
 		)
 		(stroke
@@ -3797,6 +4234,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 71.12) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d987ab-63c1-4749-ac3b-f6b56fc1f6f8")
+	)
+	(wire
+		(pts
 			(xy 139.7 104.14) (xy 144.78 104.14)
 		)
 		(stroke
@@ -3804,6 +4251,16 @@
 			(type default)
 		)
 		(uuid "4953afae-2df8-426c-98bf-25726bf79350")
+	)
+	(wire
+		(pts
+			(xy 114.3 33.02) (xy 114.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aafc116-4bde-42da-aeda-3fc5c1c399c7")
 	)
 	(wire
 		(pts
@@ -3867,6 +4324,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 50.8) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f17994a-a696-4728-bc4c-0b0a3bb3a311")
+	)
+	(wire
+		(pts
 			(xy 261.62 158.75) (xy 264.16 158.75)
 		)
 		(stroke
@@ -3894,6 +4361,16 @@
 			(type default)
 		)
 		(uuid "52cce036-ddbd-42ec-bc96-eb5f25e66c13")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 189.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54602f8b-60c2-426a-8518-874fa9b1559b")
 	)
 	(wire
 		(pts
@@ -3964,6 +4441,16 @@
 			(type default)
 		)
 		(uuid "5d4bf048-3194-4e93-99a2-579aff4c3025")
+	)
+	(wire
+		(pts
+			(xy 118.11 25.4) (xy 118.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de3196f-5b2e-4329-aff2-02b7584bca0a")
 	)
 	(wire
 		(pts
@@ -4275,6 +4762,16 @@
 		)
 		(uuid "7f58aa1e-dfe5-47c6-8d47-4737967134d5")
 	)
+	(wire
+		(pts
+			(xy 154.94 31.75) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcdd120-ccdf-4938-a861-2045f33ccd53")
+	)
 	(bus
 		(pts
 			(xy 238.76 29.21) (xy 238.76 49.53)
@@ -4364,6 +4861,16 @@
 			(type default)
 		)
 		(uuid "895d5647-6956-46f0-9b6a-8648011b7e01")
+	)
+	(wire
+		(pts
+			(xy 148.59 34.29) (xy 148.59 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899ef542-a20b-48bb-a3ca-68e4727c341b")
 	)
 	(wire
 		(pts
@@ -4475,6 +4982,16 @@
 		)
 		(uuid "99694c5f-01bd-46d5-8ae6-2a8045bb8c2e")
 	)
+	(wire
+		(pts
+			(xy 77.47 49.53) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9972982c-270c-4c49-9b40-ee8c8ce178b3")
+	)
 	(bus
 		(pts
 			(xy 238.76 90.17) (xy 238.76 110.49)
@@ -4494,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "9c96dc00-6ee7-4013-8a37-2067eddfbd80")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e091e21-53c3-4d55-ba26-1637e164fdf1")
 	)
 	(wire
 		(pts
@@ -4737,6 +5264,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 60.96) (xy 77.47 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b243c3de-c679-4efe-b760-96c1352ab763")
+	)
+	(wire
+		(pts
 			(xy 271.78 105.41) (xy 271.78 104.14)
 		)
 		(stroke
@@ -4744,6 +5281,16 @@
 			(type default)
 		)
 		(uuid "b2ac457e-d4f2-448b-aba6-c98c863238a3")
+	)
+	(wire
+		(pts
+			(xy 120.65 25.4) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bd7ec3-d374-4557-aa38-6855a0e72108")
 	)
 	(wire
 		(pts
@@ -4774,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "b5313754-2fc2-49b6-abd5-5223fc94161e")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b587bed6-29c7-4619-bafe-31fa30a2cab7")
 	)
 	(wire
 		(pts
@@ -4837,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 71.12) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8ba50f-22c6-40a1-b46d-7382fe9e0ee3")
+	)
+	(wire
+		(pts
 			(xy 114.3 34.29) (xy 118.11 34.29)
 		)
 		(stroke
@@ -4844,6 +5411,16 @@
 			(type default)
 		)
 		(uuid "bb82739f-1fe5-4845-a386-f1aa2af4eceb")
+	)
+	(wire
+		(pts
+			(xy 148.59 25.4) (xy 143.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be937daa-f4b4-43a7-83fb-3f7468c160dd")
 	)
 	(wire
 		(pts
@@ -4894,6 +5471,16 @@
 			(type default)
 		)
 		(uuid "c689cb45-ff83-4070-98ca-c7d459b66eaf")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cc3d41-9e9f-4c42-b264-239b71c30924")
 	)
 	(wire
 		(pts
@@ -4994,6 +5581,16 @@
 			(type default)
 		)
 		(uuid "d79f9e28-2e47-4bc8-8af4-21d67c56b69e")
+	)
+	(wire
+		(pts
+			(xy 135.89 25.4) (xy 128.27 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bdc327-fdb2-4081-84dd-2bbe35dfa7a1")
 	)
 	(bus
 		(pts
@@ -5104,6 +5701,16 @@
 			(type default)
 		)
 		(uuid "e50b9992-85e0-43a5-bb0c-41dc0892f8ed")
+	)
+	(wire
+		(pts
+			(xy 189.23 99.06) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94ee12d-98de-4738-856f-487bb0932e4b")
 	)
 	(wire
 		(pts
@@ -5408,7 +6015,7 @@
 		(uuid "26a96a94-dddc-4680-a140-d10276c65e22")
 	)
 	(label "B2"
-		(at 80.01 104.14 0)
+		(at 80.01 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5474,7 +6081,7 @@
 		(uuid "40ae4f33-f44a-4f6f-a7c8-9de199e8251c")
 	)
 	(label "A2"
-		(at 80.01 101.6 0)
+		(at 80.01 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5595,7 +6202,7 @@
 		(uuid "8b0f68fb-50da-4d28-ad2b-7f0dcfe0911e")
 	)
 	(label "A0"
-		(at 80.01 91.44 0)
+		(at 80.01 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5626,6 +6233,17 @@
 			(justify left bottom)
 		)
 		(uuid "c1ba0768-6e31-4e0a-b2d9-75963f7a0f6c")
+	)
+	(label "Error_LED"
+		(at 80.01 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb7a7ca0-08de-4b10-bbdd-c76c60d89894")
 	)
 	(label "A4"
 		(at 242.57 148.59 0)
@@ -5672,7 +6290,7 @@
 		(uuid "e3e7498e-c5ad-4adf-802f-663f7963c612")
 	)
 	(label "B0"
-		(at 80.01 93.98 0)
+		(at 80.01 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5815,6 +6433,175 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 154.94 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123e5ebb-042a-4e27-bd5d-5ebaf711ddd0")
+		(property "Reference" "#PWR013"
+			(at 154.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3815c874-f578-4148-a4df-039dc05d7e85")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Receptacle_MountingHoles")
+		(at 271.78 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "162c1316-4751-4d23-9751-d9fd56ddcda7")
+		(property "Reference" "J2"
+			(at 276.86 60.9601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Receptacle_MountingHoles"
+			(at 276.86 58.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+			(at 271.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
+			(at 271.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "D-SUB BU 09US"
+			(at 271.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7256c746-0037-4fd0-a2f7-cc1fe2f62b54")
+		)
+		(pin "5"
+			(uuid "ee4993df-224c-460f-a288-00eb3569e385")
+		)
+		(pin "1"
+			(uuid "eec979d4-41e7-4e0b-bb26-4b8110170996")
+		)
+		(pin "9"
+			(uuid "585235bc-4b35-4200-9066-3c7f3b4d5133")
+		)
+		(pin "3"
+			(uuid "e8693893-f394-4076-b6ef-46ad6bbd0d9f")
+		)
+		(pin "6"
+			(uuid "f9c6bae8-a7de-45e3-8b30-c1da8534ed3f")
+		)
+		(pin "8"
+			(uuid "682a5980-5c92-4f98-80c6-214c777be002")
+		)
+		(pin "7"
+			(uuid "61e7ed8d-2708-4fd8-a0e4-0d9535b1627e")
+		)
+		(pin "0"
+			(uuid "96c46590-6406-456a-8c7a-34d52eef6b77")
+		)
+		(pin "4"
+			(uuid "39173445-a924-4a80-afa1-c28b027af4b4")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 134.62 71.12 180)
 		(unit 1)
@@ -5904,6 +6691,83 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 124.46 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f02a9b2-fff1-43b3-8e92-9515b30c69e1")
+		(property "Reference" "D10"
+			(at 122.8725 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 122.8725 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "QUAD 2111O179"
+			(at 124.46 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fa0ec52-ce84-4978-b7b0-f6af39bdd66a")
+		)
+		(pin "2"
+			(uuid "ce9c0fc2-27f1-4f0d-9bcb-f92d2eba6a30")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6014,7 +6878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
 			(at 271.78 29.21 0)
 			(effects
 				(font
@@ -6041,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Reichelt.de" ""
+		(property "Reichelt.de" "D-SUB BU 09US"
 			(at 271.78 29.21 0)
 			(effects
 				(font
@@ -6401,6 +7265,85 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45fea172-313d-4b35-8903-88cb1c5ff5e2")
+		(property "Reference" "D8"
+			(at 193.04 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 193.04 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "QUAD 2111O181"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb0d16a-b5b6-4a69-a389-6c1cead88740")
+		)
+		(pin "2"
+			(uuid "1a6a59b6-b9be-4a55-93a3-4103f658fabb")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6803,6 +7746,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 189.23 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63530d53-5fab-46ee-8c28-a7d3312ce44d")
+		(property "Reference" "R18"
+			(at 191.77 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 191.77 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 191.008 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 10,0K"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f9dcc3-91d3-4687-bba6-8844d12e4036")
+		)
+		(pin "2"
+			(uuid "0aef1908-d94c-4f23-9cbc-17cbd365bfbe")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 251.46 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6873,6 +7895,85 @@
 			(project ""
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68d6b869-c300-4e42-8c1f-4a731d6d29f7")
+		(property "Reference" "D9"
+			(at 81.28 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 81.28 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "QUAD 2111O178"
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b004d43-6eb2-4caa-8b37-eb2c1b7d32ff")
+		)
+		(pin "2"
+			(uuid "ccf69fc5-4ba4-4aeb-9307-f7d0be84c7cf")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7107,16 +8208,16 @@
 	)
 	(symbol
 		(lib_id "Connector:DE9_Receptacle_MountingHoles")
-		(at 271.78 90.17 0)
+		(at 271.78 151.13 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "729e2e4c-989f-4ec3-9ad8-d06f7fbea5d8")
-		(property "Reference" "J3"
-			(at 276.86 91.4401 0)
+		(uuid "73ddb2d7-e7c7-452d-b27f-6e0b0f9e2748")
+		(property "Reference" "J5"
+			(at 276.86 152.4001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +8226,7 @@
 			)
 		)
 		(property "Value" "DE9_Receptacle_MountingHoles"
-			(at 276.86 88.9001 0)
+			(at 276.86 149.8601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,8 +8234,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 271.78 90.17 0)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +8244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 90.17 0)
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +8253,16 @@
 			)
 		)
 		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
-			(at 271.78 90.17 0)
+			(at 271.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "D-SUB BU 09US"
+			(at 271.78 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,39 +8271,105 @@
 			)
 		)
 		(pin "2"
-			(uuid "cbfdcfdb-8d98-4859-acb4-49b829d5e009")
+			(uuid "98c727d9-1492-49a3-a6a1-1433fa1a7aa4")
 		)
 		(pin "5"
-			(uuid "3e2f941b-f8b6-46c2-9a3e-f517f292f4a4")
+			(uuid "d0092d00-b6be-45e6-a3e7-952adb6f20ff")
 		)
 		(pin "1"
-			(uuid "c41e8792-6216-41bc-97fd-350dbe7b08fd")
+			(uuid "f2f86c08-3a1e-4c6b-af7a-fd544225f513")
 		)
 		(pin "9"
-			(uuid "f8be0afb-48fe-4ac1-a738-1a5349566a83")
+			(uuid "6a410939-0b8a-481f-a676-10147c94195b")
 		)
 		(pin "3"
-			(uuid "e49c607d-7e5e-4ca7-8dcb-eeac8158eca8")
+			(uuid "8591d267-56c8-464e-86cf-4283c7376e63")
 		)
 		(pin "6"
-			(uuid "bb54194c-ed47-4e5c-aa74-d2fbd1ac918e")
+			(uuid "c16a0abf-8a62-4f5f-991c-699556c2b254")
 		)
 		(pin "8"
-			(uuid "d8d9d76c-3a6d-4d18-8958-019634e1fe4d")
+			(uuid "9f11979c-ef93-4263-8dbf-15823ebb002f")
 		)
 		(pin "7"
-			(uuid "c6b27949-57e3-49de-81e5-cdc3ab0ce023")
+			(uuid "57af4013-541e-40a0-b4b1-a4e58743e25a")
 		)
 		(pin "0"
-			(uuid "4d19432c-8e6c-470a-9ccb-d5c2285df5bb")
+			(uuid "0426670b-4120-4ffe-9adf-ab6be7ea5189")
 		)
 		(pin "4"
-			(uuid "ee69132c-816d-4a1d-ab2a-e891bdf3f373")
+			(uuid "daf00433-e590-4b70-8899-5b25cd735fa8")
 		)
 		(instances
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
-					(reference "J3")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b18c0fe-4989-41b7-87cd-339f3f6bc3a9")
+		(property "Reference" "#PWR011"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e60a1159-a6b2-4295-9185-9173b5f77ebe")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7535,6 +8711,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e021c9-4d84-4097-b65b-48d1736f6c27")
+		(property "Reference" "#PWR012"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee72538d-3b5f-4faa-b8b8-8acddced7475")
+		)
+		(instances
+			(project ""
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 87.63 0)
 		(unit 1)
@@ -7562,7 +8804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 178.7652 91.44 0)
 			(effects
 				(font
@@ -7685,6 +8927,109 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Receptacle_MountingHoles")
+		(at 271.78 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a58a8795-2ceb-4a8b-89b0-20a0f0296243")
+		(property "Reference" "J4"
+			(at 276.86 121.9201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Receptacle_MountingHoles"
+			(at 276.86 119.3801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "D-SUB BU 09US"
+			(at 271.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24214b40-7030-4ed8-86f2-542e72b76f0d")
+		)
+		(pin "5"
+			(uuid "d70537d3-3959-45ee-864d-d63aa7bfd95a")
+		)
+		(pin "1"
+			(uuid "f0348c90-2235-4d8c-a55a-214799a7fd63")
+		)
+		(pin "9"
+			(uuid "e81a6357-17d8-4ceb-a8e1-eb02ee0586f6")
+		)
+		(pin "3"
+			(uuid "fa720ae6-fbf2-494b-8c92-70d35b70d688")
+		)
+		(pin "6"
+			(uuid "3f9b4365-b63c-4416-8d3c-18b3fb97cef9")
+		)
+		(pin "8"
+			(uuid "01fe89c9-eb81-44de-97df-9fb47d959093")
+		)
+		(pin "7"
+			(uuid "ffe99cc8-8aef-436a-8efb-26770f8a0f05")
+		)
+		(pin "0"
+			(uuid "feac6cc9-e156-4cb7-ba30-66f528ba1593")
+		)
+		(pin "4"
+			(uuid "56550a72-e0d9-4173-9741-59e3503d43e4")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7923,6 +9268,265 @@
 			(project "CoordinateMeasurementLogicBoard"
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8baec1d-784c-40d6-b7ef-21bd509c2e4c")
+		(property "Reference" "R20"
+			(at 139.7 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 139.7 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 139.7 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 1,0K"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb00857-2d98-4ca4-84fe-f0c04d63465e")
+		)
+		(pin "2"
+			(uuid "dc064725-908f-4225-b069-1459008943a5")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Receptacle_MountingHoles")
+		(at 271.78 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb77d944-9ece-41b2-8b45-b463d220b786")
+		(property "Reference" "J3"
+			(at 276.86 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Receptacle_MountingHoles"
+			(at 276.86 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "D-SUB BU 09US"
+			(at 271.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1131d73-3b80-47b1-99ae-bbc12e32c57e")
+		)
+		(pin "5"
+			(uuid "c63e66af-459b-43d0-8af2-f1a8ae18cf9e")
+		)
+		(pin "1"
+			(uuid "a7bb95be-0c0d-406a-8ec0-184cff93d57c")
+		)
+		(pin "9"
+			(uuid "51bf0506-c4e0-471c-8446-2442196930e4")
+		)
+		(pin "3"
+			(uuid "e173b485-e902-43b0-8126-f3febc39a746")
+		)
+		(pin "6"
+			(uuid "daf8acb0-f200-417c-b525-6c2af55b7e4e")
+		)
+		(pin "8"
+			(uuid "90226864-badb-44d7-a079-27c9343b824f")
+		)
+		(pin "7"
+			(uuid "ba0e5a64-0159-4986-8ba0-cad6f4c236aa")
+		)
+		(pin "0"
+			(uuid "b2b7a594-850d-41c0-8d44-dcc72ebd8b8e")
+		)
+		(pin "4"
+			(uuid "bbed7cda-76e7-4fb7-aff5-94dcac720a31")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0d38a8a-b038-4494-853a-77f3025095f2")
+		(property "Reference" "R19"
+			(at 80.01 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 80.01 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 79.248 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/B400/SMD-1206_SMD-0805_SMD-0603%23YAG.pdf"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt.de" "SMD-0805 1,0K"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2dcdc9e-d5f5-46e7-943d-8a38ff3549be")
+		)
+		(pin "2"
+			(uuid "4a51e0f3-14ee-4c2d-9c76-d169bdec58b4")
+		)
+		(instances
+			(project "CoordinateMeasurementLogicBoard"
+				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -8235,100 +9839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Receptacle_MountingHoles")
-		(at 271.78 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d50e578d-4d90-43a7-a9f5-3bb8689d4b7e")
-		(property "Reference" "J4"
-			(at 276.86 121.9201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DE9_Receptacle_MountingHoles"
-			(at 276.86 119.3801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
-			(at 271.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db084baf-f2be-4a28-90ea-6a0a38230ca3")
-		)
-		(pin "5"
-			(uuid "dea1c64e-d9b5-46c0-b99a-a6bb4d43fe07")
-		)
-		(pin "1"
-			(uuid "b9cc9dd7-46cf-4a80-98d8-db53e5e69dd9")
-		)
-		(pin "9"
-			(uuid "d8c85ffc-5f52-451b-8771-4833e630d3d5")
-		)
-		(pin "3"
-			(uuid "b4107329-4ed4-4e61-9d04-f1d44a3ffe2f")
-		)
-		(pin "6"
-			(uuid "be1e9761-6c93-41b2-b1fb-39abc2675f0c")
-		)
-		(pin "8"
-			(uuid "aa6e36ee-1f09-4234-8ce3-eba80b95f1c1")
-		)
-		(pin "7"
-			(uuid "5f5c4aec-5eee-434a-ba44-3dcb7073ebd2")
-		)
-		(pin "0"
-			(uuid "5bf5bef5-5f95-4ec4-9275-abd7cc151ce7")
-		)
-		(pin "4"
-			(uuid "0f9f1eb3-8492-4a5e-9689-e3707709926d")
-		)
-		(instances
-			(project "CoordinateMeasurementLogicBoard"
-				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BCP53")
 		(at 167.64 59.69 0)
 		(mirror x)
@@ -8575,100 +10085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Receptacle_MountingHoles")
-		(at 271.78 59.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0851135-eeed-48c0-a8f1-513a65541e6e")
-		(property "Reference" "J2"
-			(at 276.86 60.9601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DE9_Receptacle_MountingHoles"
-			(at 276.86 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
-			(at 271.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "880724d5-6051-461f-9168-6cf866ab1783")
-		)
-		(pin "5"
-			(uuid "af909740-da1d-4603-8ce5-adaddffcb5b2")
-		)
-		(pin "1"
-			(uuid "9c079b99-521b-4351-9765-c0af694d207a")
-		)
-		(pin "9"
-			(uuid "8776dadb-3c90-4a1f-b1c1-0a7730df8e8f")
-		)
-		(pin "3"
-			(uuid "42c63084-d1a1-4a98-90cc-0da5b178a316")
-		)
-		(pin "6"
-			(uuid "9346a8d4-cfcf-4839-b24f-e1a35e91b708")
-		)
-		(pin "8"
-			(uuid "6e9ac224-e781-47e8-8893-24f461d5b5ae")
-		)
-		(pin "7"
-			(uuid "e7055dbe-143c-4f16-a8c1-cd6b4e9fe05b")
-		)
-		(pin "0"
-			(uuid "9bc0f11f-2e88-46b8-91a7-383098ccfcdc")
-		)
-		(pin "4"
-			(uuid "90130c24-daea-418d-8319-5f16b0578d8a")
-		)
-		(instances
-			(project "CoordinateMeasurementLogicBoard"
-				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 251.46 20.32 180)
 		(unit 1)
@@ -8843,100 +10259,6 @@
 			(project ""
 				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:DE9_Receptacle_MountingHoles")
-		(at 271.78 151.13 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7c5d49a-31d1-4ac2-93ab-5c804f22a97f")
-		(property "Reference" "J5"
-			(at 276.86 152.4001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DE9_Receptacle_MountingHoles"
-			(at 276.86 149.8601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
-			(at 271.78 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "900ccdf7-23b5-4bb7-9d6e-344e5e9a8186")
-		)
-		(pin "5"
-			(uuid "153ec771-1e08-4082-aeee-9ac90da1c987")
-		)
-		(pin "1"
-			(uuid "eb25883f-8864-4f90-988a-f114b2202dc2")
-		)
-		(pin "9"
-			(uuid "3002fd8d-e9d6-434f-9058-ceaa15e7f69c")
-		)
-		(pin "3"
-			(uuid "ac8b401e-1038-426f-ab8b-c82fcad227fb")
-		)
-		(pin "6"
-			(uuid "344f215c-7fe8-4f78-a66f-2eb543fd361a")
-		)
-		(pin "8"
-			(uuid "33ada77d-bc5c-4422-beed-a276f14ff22b")
-		)
-		(pin "7"
-			(uuid "da3dc565-36e6-41da-9aa9-78e9b18e5e10")
-		)
-		(pin "0"
-			(uuid "6fcd75af-56b2-4af0-93c9-52a49d745963")
-		)
-		(pin "4"
-			(uuid "35a220d4-a7d0-4a47-a759-9912c62d53d7")
-		)
-		(instances
-			(project "CoordinateMeasurementLogicBoard"
-				(path "/dab1ce75-0a1a-4f1c-87f5-1d8392773e62"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9240,10 +10562,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f355590f-5740-4e91-b0c8-00d65be24497")
 		(property "Reference" "U1"
-			(at 133.35 26.67 0)
+			(at 132.588 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
