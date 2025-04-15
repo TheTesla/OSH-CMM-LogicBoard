@@ -1,0 +1,50 @@
+version = 1
+
+# source and test files
+[[annotations]]
+path = [ 
+    "src/mech/*",
+    "src/elec/*",
+    "gen/**",
+    "bom.csv",
+    "README.md",
+    "okh.toml",
+    "old/**",
+]
+SPDX-FileCopyrightText = "2025 Stefan Helmert <stefan.helmert@htw-dresden.de>"
+#SPDX-License-Identifier = "AGPL-3.0-or-later"
+SPDX-License-Identifier = "CERN-OHL-S-2.0"
+
+[[annotations]]
+path = [
+    "src/elec/Converter_DCDC_2.pretty/*",
+    "src/elec/Converter_DCDC.3dshapes/*",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2025 Stefan Helmert <stefan.helmert@htw-dresden.de>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# A recursive glob of all files and directories in tests/resources/,
+# and the REUSE information of these files is overridden.
+[[annotations]]
+path = [
+    "res/economics/prototype/pcb/*.xls*",
+    "res/economics/prototype/components/*.xls*",
+    "tests/resources/**",
+    ".gitignore"
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2025 Stefan Helmert <<stefan.helmert@htw-dresden.de>"
+SPDX-License-Identifier = "CC0-1.0"
+
+# computer-generated files
+[[annotations]]
+path = [
+    "res/economics/prototype/pcb/*.pdf",
+    "res/economics/prototype/components/*.pdf",
+    "poetry.lock",
+    "requirements.txt"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
+

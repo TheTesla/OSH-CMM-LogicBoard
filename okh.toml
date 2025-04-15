@@ -1,0 +1,35 @@
+okhv = "OKH-LOSHv1.0" # NOT to be changed
+name = "osh-cmm-logicboard"
+repo = "https://github.com/TheTesla/OSH-CMM-LogicBoard/"
+version = "0.1.0"
+# This needs to be a valid SPDX [License Expression](https://spdx.github.io/spdx-spec/v2-draft/SPDX-license-expressions/). Usually that is a single SPDX license ID, foudn in the "Identifier" column in this table: https://spdx.org/licenses/
+license = "CERN-OHL-S-2.0"
+licensor = "Stefan Helmert <stefan.helmert@htw-dresden.de>"
+function = "Logic board, which connects the arduino to the rotary encoders. It adds electrical protection to the arduino inputs and the power supply. An internal converter allows the usage of rotary encoders with more than 5 V supply requirements."
+documentation-language = "en-GB"
+organization = "Hochschule fuer Technik und Wirtschaft Dresden"
+#release = "https://gitlab.com/YOU/your-awesome-project/-/releases/1.0.0"
+readme = "README.md"
+#contribution-guide = "CONTRIBUTING.md"
+# logo
+#image = "imgs/xxx.jpg"
+# product-photo
+image = "gen/elec/CoordinateMeasurementLogicBoard.png"
+technology-readiness-level = "OTRL-4"
+documentation-readiness-level = "ODRL-3"
+#attestation = "https://certification.oshwa.org/cl000001.html"
+#publication = "https://doi.org/10.1371/journal.pone.0193087"
+#standard-compliance = "DIN EN 1335"
+# A Cooperative Patent Classification-ID, describing this projects hardware; You may want to search for it here: <https://worldwide.espacenet.com/classification>
+#cpc-patent-class = "D03D 35/00"
+#tsdc = "MEC"
+bom = "bom.csv"
+#manufacturing-instructions = "Documentation/Assembly_Guide/AssemblyGuide.md"
+#user-manual = "Documentation/User_Guide/UserGuide.md"
+mass= 200.0
+
+[outer-dimensions]
+width = "180"
+depth = "90"
+height = "30"
+
