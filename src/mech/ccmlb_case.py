@@ -33,7 +33,7 @@ def case_bottom(x, y, z):
     return True
 
 res = 0.2
-render.renderAndSave(case_top, "case_cmmlb_top.stl", res)
+render.renderAndSave(case_top, "gen/mech/case_cmmlb_top.stl", res)
 #render.renderAndSave(case_bottom, "case_cmmlb_bottom.stl", res)
 
 
