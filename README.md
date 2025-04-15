@@ -30,6 +30,22 @@ The rotary encoders are shipped with open wire ends. A plug has to be attached t
 
 Stefan Helmert <stefan.helmert@htw-dresden.de>
 
+## Appendix
+
+### Pictures
+
+The following pictures show the rendering of the assembled pcb. The arduino board is not available as 3d model.
+
+![rendering of the assembled pcb, top side](gen/elec/CoordinateMeasurementLogicBoard.png)
+
+![rendering of the assembled pcb, bottom side](gen/elec/CoordinateMeasurementLogicBoardB.png)
+
+
+### Schematics
+
+![schematics](gen/elec/CoordinateMeasurementLogicBoard_schematics.png)
+
+
 
 
 
